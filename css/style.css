@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: system,-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe WP',Roboto,Ubuntu,Oxygen,Cantarell,'Fira Sans','Helvetica Neue',Helvetica,'Lucida Grande','Droid Sans',Tahoma,'Microsoft Sans Serif',sans-serif;
+}
+
+.header{
+    background: rgb(255,0,211);
+    background: linear-gradient(90deg, rgba(255,0,211,1) 0%, rgba(161,43,190,1) 100%);
+}
+
+.header p{
+    font-size: 20px;
+    line-height: 44px;
+    color: #e5ff6a;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.container-header{
+    max-width: 97%;
+    padding: 0 3%;
+    background: rgb(251,97,224);
+    background: linear-gradient(90deg, rgba(251,97,224,1) 0%, rgba(89,49,145,1) 100%);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.navigation-span span{
+    margin: 0 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation-span img{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.navigation-button{
+    background-color: #d368bf;
+    border: 0;
+    color: white;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.burger{
+    margin: 0;
+    padding-left: 25px;
+    color: white;
+    font-size: 30px;
+}
+
+.burger i{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.location-search input{
+    width: 710px;
+    padding: 16px 15px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.location h1{
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.location-span{
+    display: flex;
+}
+
+.location-span span{
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location-span i{
+    color: white;
+}
+
+.location-span span p{
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    top: -28px;
+    border-radius: 30px;
+}
+
+.container{
+    max-width: 97%;
+    padding: 0 3%;
+}
+
+.main-background{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.main-background img{
+    border-radius: 20px;
+}
+
+.card-parent{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.card{
+    width: 178px;
+    height: 237px;
+}
+
+.card img{
+    width: 100%;
+    border: 0.5px solid lightblue;
+}
+
+.card p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.banner-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.left-banner{
+    background: url('https://images.wbstatic.net/bners1/38383746576776.jpg');
+    width: 100%;
+    height: 35vh;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.right-banner{
+    background: url('https://images.wbstatic.net/bners1/382993475886.png');
+    width: 100%;
+    height: 35vh;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.img-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.img-parent img{
+    border-radius: 20px;
+}
+
+.left-img{
+    margin-right: 15px;
+}
+
+.right-img{
+    margin-left: 15px;
+}
+
+.brend-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.brend-button button{
+    width: 120px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.brend-button button a{
+    color: black;
+    text-decoration: none;
+}
+
+.inline-card{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* .footer{
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+} */

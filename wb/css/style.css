@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.sale{
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(255,0,211);
+    background: linear-gradient(90deg, rgba(255,0,211,1) 0%, rgba(217,81,251,1) 100%);
+}
+
+.content-sale h1{
+    margin: 5px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    color: yellow;
+}
+
+.bottom-header{
+    background: rgb(235,72,207);
+    background: linear-gradient(90deg, rgba(235,72,207,1) 0%, rgba(161,43,190,1) 100%);
+}
+
+.content-btn-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.content-btn-header img{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2px;
+}
+
+.content-btn-header span{
+    margin: 0 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.content-btn-header button{
+    border-radius: 14px;
+    padding: 5px;
+    border: 0;
+    background-color: #ff00d3;
+    color: white;
+}
+
+.content-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.left-content-input{
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content-input span{
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.center-content-input input{
+    width: 830px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+.right-content-input span{
+    color: white;
+}
+
+/* .first-block-main{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50vh;
+    
+    border-radius: 25px;
+    top: -100px;
+}
+
+.content-first-block{
+    background: url('https://images.wbstatic.net/bners1/big_sd_toys_1011.jpg') center / cover no-repeat;
+    width: 90%;
+    height: 100%;
+    padding: 20px 5%;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+} */
+
+.banner{
+    position: absolute;
+    top: 220px;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.banner-content{
+    background: url('https://images.wbstatic.net/bners1/big_sd_wear_1011.jpg') center / cover;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.card-parent{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.card{
+    width: 178px;
+    height: 237px;
+}
+
+.card img{
+    width: 100%;
+    border: 0.5px solid lightblue;
+}
+
+.card p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.side-parent{
+    display: flex;
+
+}
+
+.left-parent{
+    background: url('https://images.wbstatic.net/bners1/main_poloska_trikotazh.jpg') center / cover;
+    width: 704px;
+    height: 252px;
+}
